@@ -159,7 +159,6 @@ function getSongBg() {
     }
     else if(title.innerText == 'Rock') {
         body.style.background = 'linear-gradient(135deg, #000000 25%, #0d138f 100%)';
-        title.style.color = "white";
         mainTitle.style.color = "white";
         musicContainer.classList.add("rock");
         musicContainer.classList.remove("summer");
