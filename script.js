@@ -147,6 +147,7 @@ function getSongBg() {
         musicContainer.classList.remove("hey");
         musicContainer.classList.remove("tom");
     }
+    
     else if(title.innerText == 'Phoenix') {
         body.style.background = 'linear-gradient(50deg, #cfcb0c 47%, #d90909 100%)';
         title.style.color = "black";
@@ -157,6 +158,7 @@ function getSongBg() {
         musicContainer.classList.remove("hey");
         musicContainer.classList.remove("tom");
     }
+
     else if(title.innerText == 'Rock') {
         body.style.background = 'linear-gradient(135deg, #000000 25%, #0d138f 100%)';
         mainTitle.style.color = "white";
@@ -166,6 +168,7 @@ function getSongBg() {
         musicContainer.classList.remove("hey");
         musicContainer.classList.remove("tom");
     }
+
     else if(title.innerText == 'Hyper') {
         body.style.background = 'linear-gradient(135deg, #FEC163 10%, #DE4313 100%)';
         title.style.color = "black";
@@ -176,6 +179,7 @@ function getSongBg() {
         musicContainer.classList.remove("hey");
         musicContainer.classList.remove("tom");
     }
+
     else if(title.innerText == 'Tom') {
         body.style.background = 'linear-gradient(326deg, black 21%, rgba(221,213,45,0.9110994739692753) 56%)';
         title.style.color = "black";
@@ -186,6 +190,7 @@ function getSongBg() {
         musicContainer.classList.remove("hey");
         musicContainer.classList.add("tom");
     }
+
     else if(title.innerText == 'Hey') {
         body.style.background = 'linear-gradient(135deg, #ebd3d3 10%, #d90909 100%)';
         title.style.color = "black";
@@ -196,6 +201,7 @@ function getSongBg() {
         musicContainer.classList.remove("rock");
         musicContainer.classList.remove("tom");
     }
+
     else if(title.innerText == 'Astronomia') {
         body.style.background = 'url(images/coffindance.gif)';
         title.style.textShadow = 'white 1px 2px 1px';
@@ -206,6 +212,7 @@ function getSongBg() {
         musicContainer.classList.remove("hey");
         musicContainer.classList.remove("tom");
     }
+
     else {
         body.style.background = 'linear-gradient(0deg,rgba(247, 247, 247, 1) 23.8%, rgba(252, 221, 221, 1) 92%)';
         musicContainer.classList.remove("summer");
@@ -220,18 +227,23 @@ function setColorInProgress() {
     if(title.innerText == 'Summer') {
         progress.style.backgroundColor = 'rgba(30, 250, 202, 0.6)';
     }
+
     else if(title.innerText == 'Rock') {
         progress.style.backgroundColor = 'darkblue';
     }
+
     else if(title.innerText == 'Tom') {
         progress.style.backgroundColor = 'yellow';
     }
+
     else if(title.innerText == 'Hey' || title.innerText == 'Phoenix' || title.innerText == 'Hyper') {
         progress.style.backgroundColor = 'red';
     }
+
     else if(title.innerText == 'Astronomia') {
         progress.style.backgroundColor = '#fe8daa';
     }
+
     else {
         progress.style.backgroundColor = '#fe8daa';
     }
