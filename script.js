@@ -1,12 +1,3 @@
-/* TODO
-*		Add play/pause song
-*		Add song titles and pictures
-*		Add switch songs
-*		Add progress bar
-*		Add current song time and duration for that song
-*		Add setting the current time with the mouse
-*/
-
 "use strict";
 
 const musicContainer = document.getElementById("music-container");
