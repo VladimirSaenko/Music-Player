@@ -218,9 +218,6 @@ function setColorInProgress() {
     else if(title.innerText == 'Hey' || title.innerText == 'Phoenix' || title.innerText == 'Hyper') {
         progress.style.backgroundColor = 'red';
     }
-    else if(title.innerText == 'Astronomia') {
-        progress.style.backgroundColor = '#fe8daa';
-    }
     else {
         progress.style.backgroundColor = '#fe8daa';
     }
