@@ -14,6 +14,6 @@
 
 ### https://github.com/VladimirSaenko/Audio-Player-v1
 
-### https://vladimirsaenko.github.io/Portfolio-3/sites/site-14/Audio-Player-v1/index.html
+### https://vladimirsaenko.github.io/Portfolio-3/sites/site-14/Audio-Player-V1/index.html
 
 ### }
