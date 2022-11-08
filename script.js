@@ -147,7 +147,7 @@ function getSongBg() {
         musicContainer.classList.remove("tom");
     }
     else if(title.innerText == 'Rock') {
-        body.style.background = 'linear-gradient(135deg, #000000 25%, #0d138f 100%)';
+        body.style.background = 'linear-gradient(135deg, red 45%, #0d138f 100%)';
         mainTitle.style.color = "white";
         musicContainer.classList.add("rock");
         musicContainer.classList.remove("summer");
@@ -217,6 +217,9 @@ function setColorInProgress() {
     }
     else if(title.innerText == 'Hey' || title.innerText == 'Phoenix' || title.innerText == 'Hyper') {
         progress.style.backgroundColor = 'red';
+    }
+    else if(title.innerText == 'Astronomia') {
+        progress.style.backgroundColor = '#fe8daa';
     }
     else {
         progress.style.backgroundColor = '#fe8daa';
